@@ -4,13 +4,16 @@
 #nav{
     float: right;
     padding-right: 60px;
+    color: whitesmoke;
+    
 }
 
 body {
     background-color: #6843431c;
     padding: 20px;
-    font-family:'Ubuntu', sans-serif;
-    
+    background-image: url(../../assets/images/DaveTrain.png); 
+    background-size: 100%;
+    background-repeat: no-repeat; 
     
 }
 
@@ -18,8 +21,21 @@ body {
 .main {
     max-width: 1000px;
     margin: auto;
-    
 }
+.card {
+        background-color:rgba(24, 20, 20, 0.308); 
+        width: 70%;
+        color: whitesmoke; 
+}
+.card-body {
+    width: 100%;
+}
+
+.list-group {
+    background-color:rgba(24, 20, 20, 0.308); 
+}
+    
+    
 #about{
     font-size: 50px;
     text-align: center;
@@ -29,9 +45,10 @@ body {
 h1 {
     font-size: 50px;
     /* word-break: break-all; */
-    background-color: rgba(56, 52, 52, 0.137);
+    background-color:rgba(24, 20, 20, 0.308); 
     line-height: 100%;
     padding-bottom:5%;
+    color:whitesmoke;
     
 }
 h3{
@@ -61,9 +78,11 @@ h3{
     clear: both;
 }
 
+
 /* Content */
 .content {
-    background-color: white;
+    background-color: rgba(24, 20, 20, 0.308); 
+    color:whitesmoke;
     padding: 10px;
 }
 
