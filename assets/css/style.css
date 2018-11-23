@@ -5,6 +5,8 @@
     float: right;
     padding-right: 60px;
     color: whitesmoke;
+    font-size: 25px;
+    font-family: 'Lobster Two', cursive;
     
 }
 
@@ -17,6 +19,7 @@ body {
     
 }
 
+
 /* Center website */
 .main {
     max-width: 1000px;
@@ -24,7 +27,7 @@ body {
 }
 .card {
         background-color:rgba(24, 20, 20, 0.308); 
-        width: 70%;
+        width: 80%;
         color: whitesmoke; 
 }
 .card-body {
@@ -33,7 +36,20 @@ body {
 
 .list-group {
     background-color:rgba(24, 20, 20, 0.308); 
+    line-height: 2;
+    
 }
+h2 {
+    margin-top: 30px;
+    margin-bottom: 30px; 
+    font-size: 50px;
+    font-family: 'Lobster Two', cursive;
+}
+p {
+    font-size: 25px;
+
+}
+
     
     
 #about{
@@ -49,12 +65,17 @@ h1 {
     line-height: 100%;
     padding-bottom:5%;
     color:whitesmoke;
-    
+    font-family: 'Lobster Two', cursive;
 }
 h3{
     text-align: center;
 }
 
+.container {
+    text-align: left;
+    padding-left: 70px; 
+    color: whitesmoke;
+}
 .row {
     margin: 8px -16px;
 }
@@ -84,6 +105,10 @@ h3{
     background-color: rgba(24, 20, 20, 0.308); 
     color:whitesmoke;
     padding: 10px;
+}
+.gmail {
+    color:red;
+    height: 50px;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */

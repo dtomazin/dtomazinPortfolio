@@ -5,8 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Dave Tomazin Portfolio</title>
 
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <!-- Link to google fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet">
   <!-- Added link to the jQuery Library -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
@@ -22,9 +23,10 @@
     <div class="container">
       
       <nav id="nav">
-        <a href="index.html">About Me</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
+        <a href="index.html" style="color:whitesmoke">About Me</a>
+        <br>
+        <a href="portfolio.html" style="color:whitesmoke">Portfolio</a>
+        <!-- <a href="contact.html" style="color:whitesmoke">Contact</a> -->
       </nav>
     </div>
   </header>
@@ -39,48 +41,49 @@
         <p>Projects completed.</p>
         
         <!-- Portfolio Gallery Grid -->
+       
         <div class="row">
-          <div class="column">
+          <div class="col-sm-4">
             <div class="content">
-              <img src="mountains.jpg" alt="Mountains" style="width:100%">
-              <h3><a href="https://github.com/dtomazin/ZeroMark" target= "_blank">Zero Mark</a></h3>
-              <p>Group project utilizing aspects of front end development/API's.</p>
+                <img class="card-img-top" src="assets/images/zeromark.png" height= 210-x; alt="Card image cap">
+              <h3><a href="https://github.com/dtomazin/ZeroMark" style="color:whitesmoke" target= "_blank">Zero Mark</a></h3>
+              <p>Group project utilizing aspects of front end/firebase/API's.</p>
             </div>
           </div>
-          <div class="column">
+          <div class="col-sm-4">
             <div class="content">
-              <img src="lights.jpg" alt="Lights" style="width:100%">
-              <h3><a href="https://github.com/dtomazin/TriviaGameGuess" target= "_blank">Trivia Game Guess</a></h3>
+                <img class="card-img-top" src="assets/images/Rick.png" height= 210px; alt="Card image cap">
+              <h3><a href="https://github.com/dtomazin/TriviaGameGuess" style="color:whitesmoke" target= "_blank">Trivia Guess</a></h3>
               <p>Timed trivia game in the style of a traditional guessing game.</p>
             </div>
           </div>
-          <div class="column">
+          <div class="col-sm-4">
             <div class="content">
-              <img src="" alt="Nature" style="width:100%">
-              <h3><a href="https://github.com/dtomazin/marvelclick" target= "_blank">Marvel Click Game</a></h3>
+                <img class="card-img-top" src="assets/images/marvel.png" height= 210px; alt="Card image cap">
+              <h3><a href="https://github.com/dtomazin/marvelclick" style="color:whitesmoke" height= 50px; target= "_blank">Marvel Click</a></h3>
               <p>Webpage using buttons and giphy API to generate gifs.</p>
             </div>
           </div>
           </div>
           <div class="row">
-                <div class="column">
+                <div class="col-sm-4">
                   <div class="content">
-                    <img src="mountains.jpg" alt="Mountains" style="width:100%">
-                    <h3><a href="xx" target= "_blank">Train Anytime</a></h3>
+                      <img class="card-img-top" src="assets/images/DaveTrain.png" alt="Card image cap">
+                    <h3><a href="xx" style="color:whitesmoke" target= "_blank">Train Anytime</a></h3>
                     <p>Utilizing firebase to track train departures and arrivals.</p>
                   </div>
                 </div>
-                <div class="column">
+                <div class="col-sm-4">
                   <div class="content">
-                    <img src="" alt="Lights" style="width:100%">
-                    <h3><a href="https://github.com/dtomazin/friendFinder" target= "_blank">Friend Finder</a></h3>
+                      <img class="card-img-top" src="assets/images/DaveTrain.png" alt="Card image cap">
+                    <h3><a href="https://github.com/dtomazin/friendFinder" style="color:whitesmoke"target= "_blank">Friend Finder</a></h3>
                     <p>A game to have the user guess the hidden letter.</p>
                   </div>
                 </div>
-                <div class="column">
+                <div class="col-sm-4">
                   <div class="content">
-                    <img src="nature.jpg" alt="Nature" style="width:100%">
-                    <h3><a href="https://github.com/dtomazin/unit-4-game1" target= "_blank">Crystal Counter</a></h3>
+                    <img class="card-img-top" src="assets/images/DaveTrain.png" alt="Card image cap"><h3>
+                      <a href="https://github.com/dtomazin/unit-4-game1" style="color:whitesmoke"target= "_blank">Crystal Counter</a></h3>
                     <p>Game utilizing Jquery to update html. Guessing numbers game.</p>
                   </div>
                 </div>
@@ -89,4 +92,5 @@
               <hr>
       
         </div>
+      </div>
         
