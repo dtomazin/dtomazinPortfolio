@@ -16,7 +16,7 @@ body {
     background-image: url(../../assets/images/DaveTrain.png); 
     background-size: 100%;
     background-repeat: no-repeat; 
-    
+    background-color: rgba(163, 137, 137, 0.513); 
 }
 
 
@@ -29,6 +29,7 @@ body {
         background-color:rgba(24, 20, 20, 0.308); 
         width: 80%;
         color: whitesmoke; 
+        border:black
 }
 .card-body {
     width: 100%;
@@ -36,7 +37,7 @@ body {
 
 .list-group {
     background-color:rgba(24, 20, 20, 0.308); 
-    line-height: 2;
+    line-height:
     
 }
 h2 {
@@ -78,7 +79,9 @@ h3{
 }
 .row {
     margin: 8px -16px;
+ 
 }
+
 
 /* Add padding BETWEEN each column (if you want) */
 .row,
@@ -124,3 +127,4 @@ h3{
         width: 100%;
     }
 }
+
