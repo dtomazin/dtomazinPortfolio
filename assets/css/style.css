@@ -33,13 +33,21 @@ body {
 }
 .card-body {
     width: 100%;
+    margin-top: -25px;
+}
+.portfolioPic {
+    float: left; 
+    margin-right: 20px; 
 }
 
+
 .list-group {
-    background-color:rgba(24, 20, 20, 0.308); 
-    line-height:
-    
-}
+    background-color:argba(24, 20, 20, 0.308); 
+
+    }
+    #link {
+        
+    }
 h2 {
     margin-top: 30px;
     margin-bottom: 30px; 
@@ -67,6 +75,7 @@ h1 {
     padding-bottom:5%;
     color:whitesmoke;
     font-family: 'Lobster Two', cursive;
+    
 }
 h3{
     text-align: center;
